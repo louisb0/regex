@@ -3,6 +3,6 @@
 
   packages = with pkgs.ocamlPackages; [
     base
-    ppx_deriving
+    ppx_jane
   ];
 }

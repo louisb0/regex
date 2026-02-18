@@ -1,3 +1,4 @@
 (library
  (name regex)
- (preprocess (pps ppx_deriving.show)))
+ (libraries base)
+ (preprocess (pps ppx_jane)))
